@@ -1,12 +1,11 @@
-
 from random import *
 
 users = range(1,51)
 users = list (users)
 
-shuffle(users)
+ shuffle (users)
 
-winners = sample(users, 4)
+ winners = sample (users, 4)
 
 shuffle (winners)
 print ("-- 당첨자 발표 --")
